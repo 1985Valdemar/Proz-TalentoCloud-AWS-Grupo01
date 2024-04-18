@@ -27,7 +27,7 @@ Como uma empresa estabelecida há quase 40 anos, nos orgulhamos de ter construí
   </p>
    <p align="center">Figura-01  Páginas site com Figma.</p>
     Link Apresentação
-   <p align="center">https://docs.google.com/presentation/d/1AHbXTlJ73x0rbW4aIZ0T_WCsvE0oWEJ2KUDGtgUKbiI/edit?usp=sharing.</p>
+    <p align=""> <a href="https://docs.google.com/presentation/d/1AHbXTlJ73x0rbW4aIZ0T_WCsvE0oWEJ2KUDGtgUKbiI/edit?usp=sharing." target="_blank" >Apresentação</a> </p>
 
 
 <br>
