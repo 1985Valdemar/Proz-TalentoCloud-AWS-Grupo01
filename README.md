@@ -15,6 +15,9 @@ Fundada em 1985, a Loja Tabajara Eletrônicos nasceu com a missão de proporcion
 Desde os primeiros dias, temos nos dedicado a oferecer uma ampla seleção de produtos eletrônicos de alta qualidade, acompanhando as tendências do mercado e inovando para atender às necessidades de nossos clientes. Nossa equipe experiente está sempre pronta para auxiliar e orientar, garantindo uma experiência de compra excepcional.
 Como uma empresa estabelecida há quase 40 anos, nos orgulhamos de ter construído uma sólida reputação baseada na confiança, transparência e excelência no atendimento. Continuamos comprometidos em trazer as últimas novidades em tecnologia para nossos clientes, garantindo que eles tenham acesso às melhores soluções para o seu dia a dia.
 
+## Link Apresentação
+<p align=""> <a href="https://docs.google.com/presentation/d/1AHbXTlJ73x0rbW4aIZ0T_WCsvE0oWEJ2KUDGtgUKbiI/edit?usp=sharing." target="_blank" >Apresentação</a> </p>
+
 
 <br>
 <p align="center">
@@ -26,8 +29,7 @@ Como uma empresa estabelecida há quase 40 anos, nos orgulhamos de ter construí
   <br>
   </p>
    <p align="center">Figura-01  Páginas site com Figma.</p>
-    Link Apresentação
-    <p align=""> <a href="https://docs.google.com/presentation/d/1AHbXTlJ73x0rbW4aIZ0T_WCsvE0oWEJ2KUDGtgUKbiI/edit?usp=sharing." target="_blank" >Apresentação</a> </p>
+
 
 
 <br>
