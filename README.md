@@ -38,10 +38,6 @@ Como uma empresa estabelecida há quase 40 anos, nos orgulhamos de ter construí
 
 Esse projeto foi desenvolvindo com as seguintes tecnologias:
 
-- IDE VisualStudio Code
-- HTML
-- CSS.
-- JavaScript.
 - Figma.
 - Git e Github.
 
