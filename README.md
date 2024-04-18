@@ -16,7 +16,7 @@ Desde os primeiros dias, temos nos dedicado a oferecer uma ampla seleção de pr
 Como uma empresa estabelecida há quase 40 anos, nos orgulhamos de ter construído uma sólida reputação baseada na confiança, transparência e excelência no atendimento. Continuamos comprometidos em trazer as últimas novidades em tecnologia para nossos clientes, garantindo que eles tenham acesso às melhores soluções para o seu dia a dia.
 
 ## Link Apresentação
-<p align=""> <a href="https://docs.google.com/presentation/d/1AHbXTlJ73x0rbW4aIZ0T_WCsvE0oWEJ2KUDGtgUKbiI/edit?usp=sharing." target="_blank" >Apresentação</a> </p>
+<p align=""> <a href="https://docs.google.com/presentation/d/1AHbXTlJ73x0rbW4aIZ0T_WCsvE0oWEJ2KUDGtgUKbiI/edit?usp=sharing" target="_blank" >Apresentação</a> </p>
 
 
 <br>
