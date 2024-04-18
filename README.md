@@ -47,7 +47,7 @@ Esse projeto foi desenvolvindo com as seguintes tecnologias:
 
 # Autores
 - Valdemar
-- Nayara
+- Nayra
 - Marcelo
 - Juciara.
 
