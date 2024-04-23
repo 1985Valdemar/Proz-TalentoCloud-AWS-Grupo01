@@ -39,6 +39,8 @@ Como uma empresa estabelecida há quase 40 anos, nos orgulhamos de ter construí
 Esse projeto foi desenvolvindo com as seguintes tecnologias:
 
 - Figma.
+- IDE VisualStudio Code
+- HTML
 - Git e Github.
 
 # Autores
