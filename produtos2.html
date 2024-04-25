@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Produtos</title>
+    <style>
+        /* Estilo para ocultar todas as seções */
+        section {
+            display: none;
+        }
+        /* Estilo para mostrar a seção ativa */
+        :target {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Links para selecionar o produto -->
+    <nav>
+        <a href="#Desktop">Desktop</a> |
+        <a href="#Celular">Celular</a> |
+        <a href="#Notebook">Notebook</a>
+    </nav>
+
+    <!-- Seção do Produto - Desktop -->
+    <section id="Desktop">
+        <h1 class="titulo-desktop">Desktop</h1>
+        <div class="desktop">
+            <div class="container" data-produto-id="01">
+                <img src="/imagem/desktop.png" alt="Desktop - Promoção" class="img-produto">
+                <p class="produto-Promoção">Desktop-Promoção</p>
+                <div class="quantidade">
+                    <p class="qtd-produto">
+                        Desktop Completo Marca Tabajara 1, valor em 10 X 250$ sem juros
+                    </p>
+                    <p class="qtd-produto">
+                        HD 250 ssd, placa video, Monitor 17, mouse sem fio, windows 11
+                    </p>
+                    <p class="qtd-produto">Valor R$ <span>2500,00</span> </p>
+                </div>
+                <!-- Botão para adicionar produto -->
+                <a href="produtos2.html?produto=Desktop Completo Marca Tabajara 1&valor=2500,00">
+                    <button id="btn-adicionar-produto-01" class="btn-adicionar">Adicionar</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+        <!-- Seção do Produto - Celular -->
+    <section id="Celular">
+        <h1 class="titulo-celular">Celular</h1>
+        <div class="celular">
+            <div class="container" data-produto-id="2">
+                <img src="/imagem/celular.png" alt="Celular - Promoção" class="img-produto">
+                <p class="produto-Promoção">Celular-Promoção</p>
+                <div class="quantidade">
+                    <p class="qtd-produto">
+                        Celular Marca Tabajara Modelo SS, valor em 10 X 150$ sem juros
+                    </p>
+                    <p class="qtd-produto">
+                        128Gb memoria, 6Gb meoria Ram
+                        Tela Super AMOLED de 6,5 polegadas com resolução Full HD+ (2400 x 1080 pixels)
+                        Câmera traseira tripla de 12 MP + 12 MP teleobjetiva + 12 MP ultrawide
+                        Câmera frontal de 32 MP Processador Snapdragon 865 ou Exynos 990 (octa-core de até 2,7 GHz)
+                        Memória RAM de 6 GB ou 8 GB
+                    </p>
+                    <p class="qtd-produto">Valor R$ <span>1500,00</span> </p>
+                </div>
+                <!-- Botão para adicionar produto -->
+                <a href="produtos2.html?produto=Celular Marca Tabajara Modelo SS &valor=1500,00">
+                    <button id="btn-adicionar-produto-02" class="btn-adicionar">Adicionar</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção do Produto Notebook -->
+    <section id="Notebook">
+        <h1 class="titulo-notebook">Notebook</h1>
+        <div class="notebook">
+            <div class="container" data-produto-id="3">
+                <img src="/imagem/notebook.png" alt="Notebook - Promoção" class="img-produto">
+                <p class="produto-Promoção">Notebook-Promoção</p>
+                <div class="quantidade">
+                    <p class="qtd-produto">
+                        Notebook Marca Tabajara Modelo Aspirado 1, valor em 10 X 350$sem juros
+                    </p>
+                    <p class="qtd-produto">
+                        COR: Prata e preto, com acabamento em alumínio na tampa
+                        PROCESSADOR: Intel Core i5-8265U de 8ª geração | Quad Core (1,6 GHz a 3,9 GHz) 6 MB de SmartCache
+                        MEMÓRIA: RAM 8 GB (1x8GB) DDR4 Até 2400 MHz | Expansível a 32 GB (2 slots soDIMM)
+                        PLACA GRÁFICA: dedicada NVIDIA GeForce MX130 com 2 GB GDDR5 VRAM
+                        ARMAZENAMENTO: Disco Rígido 250 Gb ssd
+                        TELA 17″ LED HD TN | Resolução 1366 x 768p | Proporção: 16:9 | Design Ultra-slim
+                    </p>
+                    <p class="qtd-produto">Valor R$ <span>3500,00</span> </p>
+                </div>
+                <!-- Botão para adicionar produto -->
+                <a href="produtos2.html?produto=Notebook Marca Tabajara Modelo Aspirado 1 &valor=3500,00">
+                    <button id="btn-adicionar-produto-03" class="btn-adicionar">Adicionar</button>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
