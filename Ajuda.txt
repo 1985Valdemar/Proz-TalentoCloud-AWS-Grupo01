@@ -38,3 +38,6 @@ Ajuda IA para acessar segura ctrl + clicar mouse
 https://www.bing.com/search?pglt=43&q=html&cvid=78afa9491ba342f287c30ab388c93f3c&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEEUYPDIGCAcQRRg8MgYICBBFGDzSAQgyMTM0ajBqMagCALACAA&FORM=ANNTA1&PC=U531&showconv=1
 
 Qualquer coisa vamos conversando
+
+
+flex-box
