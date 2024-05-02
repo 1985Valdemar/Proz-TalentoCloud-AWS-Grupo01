@@ -1,16 +1,28 @@
-
-.Titulo {
+header{
     text-align: center;
-    color: antiquewhite;
-    align-items: center;
-    background-color: rgb(28, 84, 27);
+    background-color: rgb(28, 79, 47);
+    color: aliceblue;
+    height: 40px;
 }
+
 div{
     display: flex;
     justify-content: space-between;
 }
+.cestinha{
+    width: 40px;
+    height: 40px;
+    align-items: end;
+}
 form label {
     display: flex;
-    text-align: left;
-    justify-content: space-around;
+}
+nav{
+    display: flex;
+}
+footer{
+    display: flex;
+    background-color: rgb(44, 30, 30);
+    color: aliceblue;
+    align-items: center;
 }
