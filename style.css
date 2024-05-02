@@ -1,0 +1,16 @@
+
+.Titulo {
+    text-align: center;
+    color: antiquewhite;
+    align-items: center;
+    background-color: rgb(28, 84, 27);
+}
+div{
+    display: flex;
+    justify-content: space-between;
+}
+form label {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+}
