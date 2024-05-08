@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -18,7 +18,9 @@
     <!-- Lista-menu -->
 
     <nav class="cabecalho-menu">
-      <img class="img-logo" src="/imagem/logo - tabajara_lojas.png" alt="logo- Tabajara Lojas">
+       <span class="img-logo">
+        <img src="/imagem/logo - tabajara_lojas.png" alt="logo- Tabajara Lojas">
+       </span>
       <ul id="nav-lista">
         <li class="nav-item">
           <a href="/index.html">Home</a>
@@ -44,7 +46,7 @@
             <span><b>R$ 0,00</b> <br /></span>
             <span>0 itens</span>
           </div>
-          <img src="/imagem/cesta_compra.jpg" alt="cesta de compras">
+          <img src="./imagem/cesta_compra.png" alt="cesta de compras">
         </div>
       </div>
     </nav>
@@ -59,35 +61,27 @@
     </section>
     <section class="banner2-home">
       <div class="banner2-home-elementos" id="img">
-        <img src="/imagem/desktop.png" alt="Desktop-imagem" class="img-desktop" style="border-radius: 20px;">
-        <button class="botoes-home"> <a href="./produtos.html">Desktop</a></button>
+        <img src="/imagem/desktop.png" alt="Desktop-imagem" class="img-desktop">
+        <button class="botoes-home"> <span class="botao-texto"><a href="./produtos.html">Desktop</a></span></button>
       </div>
       <div class="banner2-home-elementos" id="img">
-        <img src="/imagem/celular.png" alt="Celular-imagem" class="img-celular"
-          style="border-radius: 20px;">
-        <button class="botoes-home"><a href="./produtos.html">Celulares</a></button>
+        <img src="/imagem/celular.png" alt="Celular-imagem" class="img-celular">
+        <button class="botoes-home"><span class="botao-texto"><a href="./produtos.html">Celulares</a></span></button>
       </div>
       <div class="banner2-home-elementos" id="img">
-        <img src="/imagem/notebook.png" alt="Notebook-imagem" class="img-plano"
-          style="border-radius: 20px;">
-        <button class="botoes-home"><a href="./produtos.html">Notebook</a></button>
-      </div>
+        <img src="/imagem/notebook.png" alt="Notebook-imagem" class="img-plano">
+        <button class="botoes-home"><span class="botao-texto"><a href="./produtos.html">Notebook</a></span></button>
       </div>
     </section>
+
     <section class="banner-para-empresa">
       <div>
-        <p></p>Tenha produtos da</p>
-      </div>
-      <div>
-        <img src="/imagem/logo - tabajara_lojas.png" alt="logo - Tabajara Lojas" width="486">
-      </div>
-      <div>
-        <p class="banner-para-empresa">na <a class="link-sua-empresa" href="/produtos.html">sua empresa</a></p>
+        <p>Venha Conhecer Um Pouco de Nossa Historia Click no Botão Abaixo e Será Direcionado</p>
+        <button class="botoes-home" id="botao-conheca"> <a href="/história_loja.html">Conheça nossa história</a></button> 
       </div>
     </section>
     <section class="conheca-historia">
       <img src="/imagem/historia_tabajara.png" alt="imagem do historia" class="img-final">
-      <button class="botoes-home" id="botao-conheca"> <a href="/história_loja.html">Conheça nossa história</a></button> 
     </section>
   </main>
 
@@ -120,6 +114,7 @@
         </span>
       </div>
       <span class="img-rodape">
+        <a href="https://wa.me/123456789"> <!-- Substitua 123456789 pelo seu número de WhatsApp -->
         <img src="/imagem/whatsapp-logo-png-2268.png" alt="Imagem do logo Whatsapp"
           class="img-rodape">
       </span>
