@@ -30,3 +30,5 @@ botoes.forEach(function(botao) {
         botao.style.backgroundColor = "";
     });
 });
+
+// Realizando Passo a Passo
