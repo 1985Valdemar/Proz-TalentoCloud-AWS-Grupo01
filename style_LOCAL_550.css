@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1B4332;
+  padding: 18px;
+  color: #FBF2C0;
+}
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+div.cesta img {
+    height: 48px;
+    width: 48px;
+}
+
+body .logoM {
+    margin-right: 120px;
+    display: flex;
+
+}
+ul a {
+    margin-left: 15px;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+main {
+    padding: 10px;
+    
+}
+footer {
+    padding: 10px;
+    background-color: #48392A;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+button {
+    border-radius: 50px;
+    height: 30px;
+    width: 200px;
+    background-color: #CAD2C5;
+    border: none;
+    margin: 10px;
+}
+button a {
+    text-decoration: none;
+    color: #FBF2C0;
+}
+button.entrar {
+    border-radius: 50px;
+    height: 30px;
+    width: 200px;
+    background-color: #60c522;
+    border: none;
+    color: #CAD2C5;
+    margin: 10px;
+}
+/*Fomrulário de Login */
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+ aside {
+    
+ }
+ form {
+    display: flex;
+    flex-direction: column;
+ }
+ input {
+    height: 25px;
+    width: 461px;
+    padding-bottom: 8px;
+    background-color: #EEE3E3;
+    border: none;
+ }
+ label {
+    padding-bottom: 8px;
+ }
+
+ /* Rodapé */
+ h4 {
+    padding-bottom: 25px;
+    display: block;
+    align-items: center;
+ }
+ footer {
+    margin-top: 28px;
+    height: 150px;
+    padding: 8pxS;
+    display: flex;
+    justify-content: space-around;
+ }
