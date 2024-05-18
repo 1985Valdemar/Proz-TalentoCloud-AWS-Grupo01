@@ -1,0 +1,233 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Define o modelo de caixa para incluir padding e border no tamanho total */
+}
+
+/* Estilos do cabeçalho */
+.cabecalho {
+    background-color: #fff8dc; /* Define a cor de fundo como creme */
+    color: rgb(10, 10, 10); /* Define a cor do texto */
+    padding: 10px; /* Adiciona espaço interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+.cabecalho-texto {
+    font-size: 20px; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+/* Estilos do menu */
+.cabecalho-menu {
+    display: flex; /* Usa flexbox para o layout */
+    justify-content: space-between; /* Distribui os itens uniformemente ao longo do espaço disponível */
+    align-items: center; /* Alinha os itens verticalmente */
+    padding: 10px; /* Adiciona espaço interno */
+    margin-top: 5px; /* Adiciona espaço superior */
+    background-color: #fff8dc; /* Define a cor de fundo como creme */
+}
+
+.img-logo {
+    width: 100%; /* Define a largura da logo como 100% */
+    display: block; /* Remove espaços em branco extras */
+}
+
+#nav-lista {
+    display: flex; /* Usa flexbox para o layout */
+    list-style-type: none; /* Remove a marcação da lista */
+    padding: 0; /* Remove o espaçamento interno */
+}
+
+.nav-item {
+    display: inline-block; /* Coloca os itens do menu em linha */
+    margin-right: 20px; /* Adiciona espaço à direita de cada item */
+    margin-left: 20px; /* Adiciona espaço à esquerda de cada item */
+}
+
+.nav-item a {
+    text-decoration: none; /* Remove a decoração do link */
+    color: white; /* Define a cor do texto como branco */
+    font-size: 16px; /* Define o tamanho da fonte */
+}
+
+/* Estilos para o botão de login/cadastro e a cesta de compras */
+.img-cesta {
+    display: flex; /* Usa flexbox para o layout */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+.btn-item {
+    background-color: #4CAF50; /* Define a cor de fundo como verde */
+    border: none; /* Remove a borda */
+    color: white; /* Define a cor do texto como branco */
+    padding: 10px 20px; /* Adiciona espaço interno */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove a decoração do link */
+    display: inline-block; /* Permite que o botão se comporte como um bloco */
+    font-size: 16px; /* Define o tamanho da fonte */
+    margin-right: 10px; /* Adiciona espaço à direita do botão */
+    border-radius: 4px; /* Adiciona bordas arredondadas */
+}
+
+.itens {
+    display: flex; /* Usa flexbox para o layout */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+.precoEitem {
+    margin-right: 10px; /* Adiciona espaço à direita */
+    text-align: right; /* Alinha o texto à direita */
+}
+
+.img-cesta img {
+    width: 50px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Adiciona bordas arredondadas */
+}
+
+/* Estilos para os banners */
+.banner2-home {
+    background-color: #fff8dc; /* Cor de fundo creme */
+    padding: 20px; /* Adiciona espaço ao redor dos elementos */
+    display: flex; /* Usa flexbox para o layout */
+    justify-content: space-between; /* Distribui os elementos uniformemente ao longo do espaço disponível */
+    margin-top: 5px; /* Adiciona espaço superior */
+}
+
+.banner2-home-elementos {
+    text-align: center; /* Centraliza o texto */
+    display: flex; /* Usa flexbox para o layout */
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Alinha os itens horizontalmente */
+    justify-content: center; /* Alinha os itens verticalmente */
+    height: 100%; /* Garante que a altura seja igual à altura do contêiner pai */
+}
+
+.botoes-home {
+    background-color:#4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    padding: 10px 20px; /* Adiciona espaço interno ao botão */
+    text-decoration: none; /* Remove a decoração do link */
+    font-size: 16px; /* Define o tamanho da fonte */
+    margin-top: 15px; /* Adiciona espaço superior */
+}
+
+.botoes-home:hover {
+    background-color: #4CAF50; /* Altera a cor de fundo ao passar o mouse */
+}
+
+/* Estilos para o rodapé */
+#rodape {
+    background-color: #333; /* Cor de fundo escura */
+    color: white; /* Cor do texto branco */
+    padding: 10px; /* Adiciona espaço interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+.rodape-01 {
+    display: flex; /* Usa flexbox para o layout */
+    justify-content: space-around; /* Distribui os itens uniformemente ao redor */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+.rodape-item {
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.rodape-item span {
+    display: block; /* Define como bloco */
+    margin-bottom: 1px; /* Adiciona espaço inferior */
+}
+
+.rodape-02 {
+    margin-top: 10px; /* Adiciona espaço superior */
+}
+
+.img-desktop,
+.img-celular,
+.img-notebook {
+    width: 280px; /* Define a largura */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+}
+
+.img-celular{
+    width: 400px; /* Ajusta a largura */
+}
+
+.img-desktop{
+    width: 350px; /* Ajusta a largura */
+}
+
+.cabecalho-menu {
+    display: flex; /* Usa flexbox para o layout */
+    justify-content: flex-end; /* Alinha os itens do menu à direita */
+    align-items: center; /* Alinha os itens verticalmente */
+    background-color: #fff8dc; /* Cor de fundo creme */
+}
+
+.nav-item a {
+    text-decoration: none; /* Remove a decoração do link */
+    color: black; /* Define a cor do texto como preto */
+    font-size: 16px; /* Define o tamanho da fonte */
+}
+
+.img-logo {
+    width: 70%; /* Define a largura da imagem */
+    max-width: 35vw; /* Limita a largura máxima */
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 100px; /* Define a altura máxima */
+    display: block; /* Remove espaços em branco */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.img-rodape img {
+    width: 5vw; /* Define a largura */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.conheca-historia {
+    display: flex; /* Usa flexbox para o layout */
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Alinha os itens horizontalmente */
+    margin-top: 5px; /* Adiciona espaço superior */
+}
+
+.conheca-historia .botoes-home {
+    margin-top: 20px; /* Adiciona espaço superior */
+}
+
+.conheca-historia img {
+    width: 100%; /* Define a largura como 100% */
+    height: 85vi; /* Define a altura */
+    object-fit: cover; /* Faz com que a imagem preencha o contêiner mantendo a proporção */
+    object-position: center; /* Centraliza a imagem */
+}
+
+.banner-para-empresa {
+    display: flex; /* Usa flexbox para o layout */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 10vh; /* Define a altura */
+    background-color: #fff8dc; /* Cor de fundo creme */
+    margin-top: 5px; /* Adiciona espaço superior */
+}
+
+.conteudo-centralizado {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    display: flex; /* Usa flexbox para o layout */
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.conteudo-centralizado p {
+    margin-bottom: 2px; /* Adiciona espaço inferior */
+}
+
+.container {
+    background-color: #fff8dc; /* Cor de fundo creme */
+}
+
