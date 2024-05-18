@@ -1,10 +1,58 @@
-/* Reset de estilos */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1B4332;
+  padding: 18px;
+  color: #FBF2C0;
+}
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+div.cesta img {
+    height: 48px;
+    width: 48px;
+}
+
+body .logoM {
+    margin-right: 120px;
+    display: flex;
+
+}
+ul a {
+    margin-left: 15px;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+main {
+    padding: 10px;
+    
+}
+footer {
+    padding: 10px;
+    background-color: #48392A;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+button {
+    border-radius: 50px;
+    height: 30px;
+    width: 200px;
+    background-color: #CAD2C5;
+=======
 /* Estilos do cabeçalho */
 .cabecalho {
     background-color: #fff8dc; /* Cor de fundo creme */
@@ -58,16 +106,24 @@
 
 .btn-item {
     background-color: #4CAF50; /* Verde */
+>>>>>>> main
     border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-right: 10px;
-    border-radius: 4px;
+    margin: 10px;
 }
+button a {
+    text-decoration: none;
+    color: #FBF2C0;
+}
+<<<<<<< HEAD
+button.entrar {
+    border-radius: 50px;
+    height: 30px;
+    width: 200px;
+    background-color: #60c522;
+    border: none;
+    color: #CAD2C5;
+    margin: 10px;
+=======
 
 .itens {
     display: flex;
@@ -113,8 +169,12 @@
     text-decoration: none; /* Remove sublinhado do link */
     font-size: 16px; /* Tamanho da fonte */
     margin-top: 15px; /* Espaçamento entre a imagem e o botão */
+>>>>>>> main
 }
+/*Fomrulário de Login */
 
+<<<<<<< HEAD
+=======
 .botoes-home:hover {
     background-color: #4CAF50;; /* Altera a cor de fundo ao passar o mouse */
 }
@@ -127,12 +187,34 @@
     padding: 20px;
     text-align: center;
 }
+>>>>>>> main
 
-.rodape-01 {
+main {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+    
 }
+<<<<<<< HEAD
+ aside {
+    
+ }
+ form {
+    display: flex;
+    flex-direction: column;
+ }
+ input {
+    height: 25px;
+    width: 461px;
+    padding-bottom: 8px;
+    background-color: #EEE3E3;
+    border: none;
+ }
+ label {
+    padding-bottom: 8px;
+ }
+=======
 
 .rodape-item {
     text-align: left;
@@ -227,4 +309,18 @@
     margin-bottom: 2px; /* Espaçamento entre o texto e o botão */
 }
 
+>>>>>>> main
 
+ /* Rodapé */
+ h4 {
+    padding-bottom: 25px;
+    display: block;
+    align-items: center;
+ }
+ footer {
+    margin-top: 28px;
+    height: 150px;
+    padding: 8pxS;
+    display: flex;
+    justify-content: space-around;
+ }
