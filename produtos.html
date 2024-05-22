@@ -8,9 +8,11 @@
 </head>
 <body>
   <header>
+    <!-- Cabeçalho-texto -->
     <div class="cabecalho">
       <p class="cabecalho-texto">Realize Seus Sonhos Com Tabajara Lojas</p>
     </div>
+    <!-- Lista-menu -->
     <nav class="cabecalho-menu">
       <span class="img-logo">
         <img src="/imagem/logo - tabajara_lojas.png" alt="logo- Tabajara Lojas">
@@ -21,6 +23,7 @@
         <li class="nav-item"><a href="/produtos.html">Produtos</a></li>
         <li class="nav-item"><a href="/contatos.html">Contatos</a></li>
       </ul>
+      <!-- Botao, cesta com preço e o item -->
       <div class="img-cesta">
         <div class="btn-itens">
           <button class="btn-item"><a href="/contatos.html">Login | Cadastre-se</a></button>
@@ -39,6 +42,7 @@
     </nav>
   </header>
   <main id="index-banner">
+    <!-- DESKTOP -->
     <section id="Desktop">
       <h1 class="titulo-desktop">Desktop</h1>
       <div class="desktop">
@@ -46,13 +50,16 @@
           <img src="/imagem/desktop.png" alt="Desktop - Promoção" class="img-produto">
           <p class="produto-Promoção">Desktop-Promoção</p>
           <div class="quantidade">
-            <p class="qtd-produto">Desktop Completo Marca Tabajara 1, valor em 10 X 250$ sem juros</p>
-            <p class="qtd-produto">Valor R$ <span>2500,00</span></p>
+            <p class="qtd-produto">
+              Desktop Completo Marca Tabajara 1, valor em 10 X 250$ sem juros
+            </p>
+            <p class="qtd-produto">Valor R$ <span>2500,00</span> </p>
           </div>
           <button class="btn-adicionar" onclick="adicionarItemAoCarrinho('Desktop Completo Marca Tabajara 1', 2500)">Adicionar</button>
         </div>
       </div>
     </section>
+    <!--  CELULAR  -->
     <section id="Celular">
       <h1 class="titulo-celular">Celular</h1>
       <div class="celular">
@@ -60,13 +67,16 @@
           <img src="/imagem/celular.png" alt="Celular - Promoção" class="img-produto">
           <p class="produto-Promoção">Celular-Promoção</p>
           <div class="quantidade">
-            <p class="qtd-produto">Celular Marca Tabajara Modelo SS, valor em 10 X 150$ sem juros</p>
-            <p class="qtd-produto">Valor R$ <span>1500,00</span></p>
+            <p class="qtd-produto">
+              Celular Marca Tabajara Modelo SS, valor em 10 X 150$ sem juros
+            </p>
+            <p class="qtd-produto">Valor R$ <span>1500,00</span> </p>
           </div>
           <button class="btn-adicionar" onclick="adicionarItemAoCarrinho('Celular Marca Tabajara Modelo SS', 1500)">Adicionar</button>
         </div>
       </div>
     </section>
+    <!-- NOTEBOOK -->
     <section id="Notebook">
       <h1 class="titulo-notebook">Notebook</h1>
       <div class="notebook">
@@ -74,8 +84,10 @@
           <img src="/imagem/notebook.png" alt="Notebook - Promoção" class="img-produto">
           <p class="produto-Promoção">Notebook-Promoção</p>
           <div class="quantidade">
-            <p class="qtd-produto">Notebook Marca Tabajara Modelo Aspirado 1, valor em 10 X 350$ sem juros</p>
-            <p class="qtd-produto">Valor R$ <span>3500,00</span></p>
+            <p class="qtd-produto">
+              Notebook Marca Tabajara Modelo Aspirado 1, valor em 10 X 350$ sem juros
+            </p>
+            <p class="qtd-produto">Valor R$ <span>3500,00</span> </p>
           </div>
           <button class="btn-adicionar" onclick="adicionarItemAoCarrinho('Notebook Marca Tabajara Modelo Aspirado 1', 3500)">Adicionar</button>
         </div>
@@ -83,33 +95,41 @@
     </section>
   </main>
   <br>
+  <!-- Lista de Itens no Carrinho -->
   <section id="lista-carrinho">
     <h2>Itens no Carrinho</h2>
     <ul id="itens-carrinho">
       <!-- Itens serão adicionados dinamicamente aqui -->
     </ul>
   </section>
+  <!-- RODAPÉ -->
   <footer id="rodape">
     <div class="rodape-01">
       <div class="rodape-item">
         <span><strong>Enderenço:</strong></span>
         <br><br>
-        <span>Rua da Padaria, s/n - Recife Antigo - <br> Recife - PE - CEP: 51180-041</span>
+        <span>
+          Rua da Padaria, s/n - Recife Antigo - <br> Recife - PE - CEP: 51180-041
+        </span>
       </div>
       <div class="rodape-item">
         <span><strong>Contato:</strong></span>
         <br><br>
-        <span>E-mail: contato@tabajaralojas.com.br <br>(81) 99874-8913</span>
+        <span>
+          E-mail: contato@tabajaralojas.com.br <br>
+          (81) 99874-8913
+        </span>
       </div>
       <div class="rodape-item">
         <span class="rodape-02"><strong>Horário de atendimento:</strong></span>
         <br><br>
-        <span>Segunda à Sexta das 08:00 às 20:00h <br> Sábado e Domingo das 08:00 às 12:00h</span>
+        <span>
+          Segunda à Sexta das 08:00 às 20:00h <br>
+          Sábado e Domingo das 08:00 às 12:00h
+        </span>
       </div>
       <span class="img-rodape">
-        <a href="https://wa.me/123456789"> <!-- Substitua 123456789 pelo seu número de WhatsApp -->
-        <img src="/imagem/whatsapp-logo-png-2268.png" alt="Imagem do logo Whatsapp"
-          class="img-rodape">
+        <img src="/imagem/whatsapp-logo-png-2268.png" alt="Imagem do logo Whatsapp" class="img-rodape">
       </span>
     </div>
   </footer>

@@ -227,4 +227,21 @@
     margin-bottom: 2px; /* Espaçamento entre o texto e o botão */
 }
 
+.banner-para-empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#texto-paragrafo {
+    order: -1; /* Coloca o parágrafo acima do botão */
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.botoes-home {
+    margin-bottom: 25px;
+    padding: 0 10px; /* Adiciona espaço igual de cada lado do texto */
+}
+
 
