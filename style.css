@@ -1,3 +1,4 @@
+/* Reset de estilos */
 * {
     margin: 0;
     padding: 0;
@@ -30,11 +31,33 @@ body .logoM {
 
 #nav-lista {
     list-style-type: none;
+    font-weight: bold;
+}
+
+.cabecalho-menu {
+    display: flex;
+    justify-content:space-between; /*flex-start;  space-between */
+    align-items: center;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.img-logo {
+    width: 100%; /* Tamanho da logo */
+    display: block; /* Para remover espaços em branco adicionais */
+}
+
+#nav-lista {
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+    padding: 0;
 }
 
 .nav-item {
     display: inline-block;
     margin-right: 20px;
+    margin-left: 20px;
 }
 
 .nav-item a {
@@ -61,12 +84,27 @@ button {
     height: 30px;
     width: 200px;
     background-color: #CAD2C5;
-    border: none;
-    margin: 10px;
+    color: white;
+    font-size: 16px;
 }
-button a {
+
+/* Estilos para o botão de login/cadastro e a cesta de compras */
+.img-cesta {
+    display: flex;
+    align-items: center;
+}
+
+.btn-item {
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
     text-decoration: none;
-    color: #FBF2C0;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 4px;
 }
 button.entrar {
     border-radius: 50px;
@@ -76,6 +114,11 @@ button.entrar {
     border: none;
     color: #CAD2C5;
     margin: 10px;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
 }
 /*Fomrulário de Login */
 
@@ -119,7 +162,21 @@ main {
     font-size: 16px;
     margin-top: 10px;
     border-radius: 4px;
+
+    background-color:#4CAF50; /* Cor de fundo laranja */
+    color: white; /* Cor do texto branco */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Adiciona um arredondamento aos cantos */
+    padding: 10px 20px; /* Adiciona espaço interno ao botão */
+    text-decoration: none; /* Remove sublinhado do link */
+    font-size: 16px; /* Tamanho da fonte */
+    margin-top: 15px; /* Espaçamento entre a imagem e o botão */
 }
+
+.botoes-home:hover {
+    background-color: #4CAF50;; /* Altera a cor de fundo ao passar o mouse */
+}
+
 
 /* Estilos para o rodapé */
 #rodape {
@@ -187,5 +244,39 @@ main {
 .conheca-historia {
     display: flex;
     justify-content: space-around;
- }
  
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    margin-top: 5px;
+}
+
+.conheca-historia .botoes-home {
+    margin-top: 20px; /* Espaçamento entre o botão e a imagem */
+}
+
+.conheca-historia img {
+    width: 100%; /* Define a largura da imagem como 100% da largura da tela */
+    height: 85vi; /* Define a altura da imagem como 50% da altura da tela */
+    object-fit: cover; /* Faz com que a imagem preencha o contêiner mantendo a proporção e cortando o excesso */
+    object-position: center; /* Centraliza a imagem */
+}
+
+.banner-para-empresa {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 10vh; /* Ajuste a altura conforme necessário */
+    background-color: #fff8dc; /* Cor de fundo creme */
+    margin-top: 5px;
+}
+
+.conteudo-centralizado {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    display: flex;
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.conteudo-centralizado p {
+    margin-bottom: 2px; /* Espaçamento entre o texto e o botão */
+}

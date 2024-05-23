@@ -56,3 +56,7 @@ inserir rodapé
 Na Duvida olha meu index para ver onde colar
 
 Se possivel colocar css em uma pasta para ficar mais organizado
+
+
+
+Deixei imagem do codigo para saber em qual linha deve copiar.

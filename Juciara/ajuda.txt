@@ -1,0 +1,5 @@
+1° para corrigir imagem veja o caminho basta dar . ou / = src="/imagem/cesta_compra.jpg" lembrando tem duas imagem.
+2° deixei imagem atualizar link entre as paginas
+3° deixei imagem link watts
+
+Pode copiar meu codigo deixei imagem saber onde copiar

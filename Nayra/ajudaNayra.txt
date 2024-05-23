@@ -49,3 +49,7 @@ Mudar pasta CSS do html
 *Retirar CSS do html colocar pasta styles_contatos.css
 
 Inserir redes socias se possivel.
+
+Deixei um css_contatos para evitar conflitos cada um tem css.
+
+Deixei imagem do codigo para saber onde copiar.

@@ -147,7 +147,21 @@
     margin-top: 10px;
 }
 
+.img-desktop,
+.img-celular,
+.img-notebook {
+    width: 280px; /* Defina a largura desejada */
+    height: auto; /* Isso mantém a proporção original da imagem */
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+}
 
+.img-celular{
+    width: 400px;
+}
+
+.img-desktop{
+    width: 350px;
+}
 .cabecalho-menu {
     display: flex;
     justify-content: flex-end; /* Alinha o conteúdo do menu à direita */
@@ -212,3 +226,22 @@
 .conteudo-centralizado p {
     margin-bottom: 2px; /* Espaçamento entre o texto e o botão */
 }
+
+.banner-para-empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#texto-paragrafo {
+    order: -1; /* Coloca o parágrafo acima do botão */
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.botoes-home {
+    margin-bottom: 25px;
+    padding: 0 10px; /* Adiciona espaço igual de cada lado do texto */
+}
+
+
