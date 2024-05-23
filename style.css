@@ -1,4 +1,3 @@
-/* Reset de estilos */
 * {
     margin: 0;
     padding: 0;
@@ -7,76 +6,86 @@
 
 /* Estilos do cabeçalho */
 .cabecalho {
-    background-color: #fff8dc; /* Cor de fundo creme */
-    color: rgb(10, 10, 10);
+    background-color: #333;
+    color: white;
     padding: 10px;
     text-align: center;
 }
 
 .cabecalho-texto {
     font-size: 20px;
-    font-weight: bold;
 }
 
-.cabecalho-menu {
+body .logoM {
+    margin-right: 120px;
     display: flex;
-    justify-content:space-between; /*flex-start;  space-between */
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
-    margin-top: 5px;
 }
 
 .img-logo {
-    width: 100%; /* Tamanho da logo */
-    display: block; /* Para remover espaços em branco adicionais */
+    width: 100px; /* Tamanho da logo */
 }
 
 #nav-lista {
-    display: flex;
     list-style-type: none;
-    list-style: none;
-    padding: 0;
 }
 
 .nav-item {
     display: inline-block;
     margin-right: 20px;
-    margin-left: 20px;
 }
 
 .nav-item a {
     text-decoration: none;
-    color: white;
-    font-size: 16px;
 }
-
-/* Estilos para o botão de login/cadastro e a cesta de compras */
-.img-cesta {
+ul {
+    list-style: none;
+}
+main {
+    padding: 10px;
+    
+}
+footer {
+    padding: 10px;
+    background-color: #48392A;
+    color: #FFFFFF;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 8px;
 }
-
-.btn-item {
-    background-color: #4CAF50; /* Verde */
+button {
+    border-radius: 50px;
+    height: 30px;
+    width: 200px;
+    background-color: #CAD2C5;
     border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
+    margin: 10px;
+}
+button a {
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-right: 10px;
-    border-radius: 4px;
+    color: #FBF2C0;
 }
+button.entrar {
+    border-radius: 50px;
+    height: 30px;
+    width: 200px;
+    background-color: #60c522;
+    border: none;
+    color: #CAD2C5;
+    margin: 10px;
+}
+/*Fomrulário de Login */
 
-.itens {
+
+main {
     display: flex;
+    flex-direction: row;
     align-items: center;
-}
-
-.precoEitem {
-    margin-right: 10px;
-    text-align: right;
+    justify-content: space-around;
+    
 }
 
 .img-cesta img {
@@ -90,35 +99,27 @@
     background-color: #fff8dc; /* Cor de fundo creme */
     padding: 20px; /* Adiciona um espaço ao redor dos elementos */
     display: flex;
-    justify-content: space-between; /* Distribui os elementos uniformemente ao longo
-    /*justify-content: center;*/ /* Centraliza os elementos horizontalmente */
-    margin-top: 5px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .banner2-home-elementos {
     text-align: center;
-    display: flex;
-    flex-direction: column; /* Organiza os itens em coluna */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    justify-content: center; /* Centraliza os itens verticalmente */
-    height: 100%; /* Garante que a altura seja igual à altura do container pai */
 }
 
 .botoes-home {
-    background-color:#4CAF50; /* Cor de fundo laranja */
-    color: white; /* Cor do texto branco */
-    border: none; /* Remove a borda */
-    border-radius: 5px; /* Adiciona um arredondamento aos cantos */
-    padding: 10px 20px; /* Adiciona espaço interno ao botão */
-    text-decoration: none; /* Remove sublinhado do link */
-    font-size: 16px; /* Tamanho da fonte */
-    margin-top: 15px; /* Espaçamento entre a imagem e o botão */
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 4px;
 }
-
-.botoes-home:hover {
-    background-color: #4CAF50;; /* Altera a cor de fundo ao passar o mouse */
-}
-
 
 /* Estilos para o rodapé */
 #rodape {
@@ -148,25 +149,19 @@
 }
 
 .img-desktop,
-.img-celular,
-.img-notebook {
-    width: 280px; /* Defina a largura desejada */
+.img-celular {
+    width: 300px; /* Defina a largura desejada */
     height: auto; /* Isso mantém a proporção original da imagem */
     border-radius: 20px; /* Adiciona bordas arredondadas */
 }
-
-.img-celular{
-    width: 400px;
+.img-notebook {
+    width: 30vw; /* Defina a largura desejada */
 }
 
-.img-desktop{
-    width: 350px;
-}
 .cabecalho-menu {
     display: flex;
     justify-content: flex-end; /* Alinha o conteúdo do menu à direita */
     align-items: center;
-    background-color: #fff8dc; /* Cor de fundo creme */
   }
   
   .nav-item a {
@@ -191,40 +186,6 @@
 
 .conheca-historia {
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Centraliza horizontalmente */
-    margin-top: 5px;
-}
-
-.conheca-historia .botoes-home {
-    margin-top: 20px; /* Espaçamento entre o botão e a imagem */
-}
-
-.conheca-historia img {
-    width: 100%; /* Define a largura da imagem como 100% da largura da tela */
-    height: 85vi; /* Define a altura da imagem como 50% da altura da tela */
-    object-fit: cover; /* Faz com que a imagem preencha o contêiner mantendo a proporção e cortando o excesso */
-    object-position: center; /* Centraliza a imagem */
-}
-
-.banner-para-empresa {
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 10vh; /* Ajuste a altura conforme necessário */
-    background-color: #fff8dc; /* Cor de fundo creme */
-    margin-top: 5px;
-}
-
-.conteudo-centralizado {
-    text-align: center; /* Centraliza o texto horizontalmente */
-    display: flex;
-    flex-direction: column; /* Organiza os itens em coluna */
-    align-items: center; /* Centraliza os itens verticalmente */
-}
-
-.conteudo-centralizado p {
-    margin-bottom: 2px; /* Espaçamento entre o texto e o botão */
-}
-
-
+    justify-content: space-around;
+ }
+ 
