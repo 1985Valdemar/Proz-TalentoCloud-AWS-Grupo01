@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles_produtos.css">
   <title>Tabajara Lojas Eletrônicos</title>
 </head>
-
 <body>
   <header>
     <!-- Cabeçalho-texto -->
@@ -18,33 +16,27 @@
     <nav class="cabecalho-menu">
       <span class="img-logo">
         <img src="/imagem/logo - tabajara_lojas.png" alt="logo- Tabajara Lojas">
-       </span>
+      </span>
       <ul id="nav-lista">
-        <li class="nav-item">
-          <a href="/index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="/história_loja.html">Sobre</a>
-        </li>
-        <li class="nav-item">
-          <a href="/produtos.html">Produtos</a>
-        </li>
-        <li class="nav-item">
-          <a href="/contatos.html">Contatos</a>
-        </li>
+        <li class="nav-item"><a href="/index.html">Home</a></li>
+        <li class="nav-item"><a href="/história_loja.html">Sobre</a></li>
+        <li class="nav-item"><a href="/produtos.html">Produtos</a></li>
+        <li class="nav-item"><a href="/ContatosAtual.html">Contatos</a></li>
       </ul>
       <!-- Botao, cesta com preço e o item -->
       <div class="img-cesta">
         <div class="btn-itens">
-          <button class="btn-item"><a href="/contatos.html">
-              Login | Cadastre-se</a></button>
+          <button class="btn-item"><a href="pagina5.html">Login | Cadastre-se</a></button>
         </div>
         <div class="itens">
           <div class="precoEitem">
-            <span><b>R$ 0,00</b> <br /></span>
-            <span>0 itens</span>
+            <span><b id="total-compra">R$ 0,00</b> <br /></span>
+            <span id="quantidade-itens">0 itens</span>
           </div>
           <img src="./imagem/cesta_compra.png" alt="cesta de compras">
+        </div>
+        <div class="remover-carrinho">
+          <button class="remover-carrinho1" id="remover-carrinho" onclick="limparCarrinho()">Remover Carrinho</button>
         </div>
       </div>
     </nav>
@@ -63,13 +55,10 @@
             </p>
             <p class="qtd-produto">Valor R$ <span>2500,00</span> </p>
           </div>
-          <a href="produtos2.html">
-            <button id="btn-adicionar-produto-01" class="btn-adicionar">Adicionar</button>
-          </a>
+          <button class="btn-adicionar" onclick="adicionarItemAoCarrinho('Desktop Completo Marca Tabajara 1', 2500)">Adicionar</button>
         </div>
       </div>
     </section>
-
     <!--  CELULAR  -->
     <section id="Celular">
       <h1 class="titulo-celular">Celular</h1>
@@ -83,13 +72,10 @@
             </p>
             <p class="qtd-produto">Valor R$ <span>1500,00</span> </p>
           </div>
-          <a href="produtos2.html">
-            <button id="btn-adicionar-produto-02" class="btn-adicionar">Adicionar</button>
-          </a>
+          <button class="btn-adicionar" onclick="adicionarItemAoCarrinho('Celular Marca Tabajara Modelo SS', 1500)">Adicionar</button>
         </div>
       </div>
     </section>
-
     <!-- NOTEBOOK -->
     <section id="Notebook">
       <h1 class="titulo-notebook">Notebook</h1>
@@ -103,30 +89,32 @@
             </p>
             <p class="qtd-produto">Valor R$ <span>3500,00</span> </p>
           </div>
-          <a href="produtos2.html">
-            <button id="btn-adicionar-produto-03" class="btn-adicionar">Adicionar</button>
-          </a>
+          <button class="btn-adicionar" onclick="adicionarItemAoCarrinho('Notebook Marca Tabajara Modelo Aspirado 1', 3500)">Adicionar</button>
         </div>
       </div>
     </section>
   </main>
   <br>
-
+  <!-- Lista de Itens no Carrinho -->
+  <section id="lista-carrinho">
+    <h2>Itens no Carrinho</h2>
+    <ul id="itens-carrinho">
+      <!-- Itens serão adicionados dinamicamente aqui -->
+    </ul>
+  </section>
   <!-- RODAPÉ -->
   <footer id="rodape">
     <div class="rodape-01">
       <div class="rodape-item">
         <span><strong>Enderenço:</strong></span>
-        <br>
-        <br>
+        <br><br>
         <span>
           Rua da Padaria, s/n - Recife Antigo - <br> Recife - PE - CEP: 51180-041
         </span>
       </div>
       <div class="rodape-item">
         <span><strong>Contato:</strong></span>
-        <br>
-        <br>
+        <br><br>
         <span>
           E-mail: contato@tabajaralojas.com.br <br>
           (81) 99874-8913
@@ -134,8 +122,7 @@
       </div>
       <div class="rodape-item">
         <span class="rodape-02"><strong>Horário de atendimento:</strong></span>
-        <br>
-        <br>
+        <br><br>
         <span>
           Segunda à Sexta das 08:00 às 20:00h <br>
           Sábado e Domingo das 08:00 às 12:00h
@@ -146,6 +133,6 @@
       </span>
     </div>
   </footer>
+  <script src="scriptMouse.js" defer></script>
 </body>
-
 </html>

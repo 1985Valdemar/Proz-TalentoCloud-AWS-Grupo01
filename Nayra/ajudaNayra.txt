@@ -1,0 +1,55 @@
+Deixei imagem do contatos como poderia ficar se possivel
+
+Por gentileza inserir:
+*Cabeçario
+*  <Header>
+    <!-- Cabeçalho-texto -->
+    <div class="cabecalho">
+      <p class="cabecalho-texto">Realize Seus Sonhos Com Tabajara Lojas</p>
+    </div>
+    <!-- Lista-menu -->
+
+    <nav class="cabecalho-menu">
+       <span class="img-logo">
+        <img src="/imagem/logo - tabajara_lojas.png" alt="logo- Tabajara Lojas">
+       </span>
+      <ul id="nav-lista">
+        <li class="nav-item">
+          <a href="/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="/história_loja.html">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a href="/produtos.html">Produtos</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contatos.html">Contatos</a>
+        </li>
+      </ul>
+    
+      <!-- Botao, cesta com preço e o item -->
+      <div class="img-cesta">
+        <div class="btn-itens">
+          <button class="btn-item"><a href="/contatos.html">Login | Cadastre-se</a></button>
+        </div>
+        <div class="itens">
+          <div class="precoEitem">
+            <span><b>R$ 0,00</b> <br /></span>
+            <span>0 itens</span>
+          </div>
+          <img src="./imagem/cesta_compra.png" alt="cesta de compras">
+        </div>
+      </div>
+    </nav>
+  
+    
+
+Mudar pasta CSS do html
+*Retirar CSS do html colocar pasta styles_contatos.css
+
+Inserir redes socias se possivel.
+
+Deixei um css_contatos para evitar conflitos cada um tem css.
+
+Deixei imagem do codigo para saber onde copiar.

@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=, initial-scale=1.0">
   <title>Tabajara Lojas Eletrônicos</title>
   <!-- Adicionando CSS -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles_index.css">
+  <!-- Adicionando JavaScript -->
+  <script src="scriptMouse.js" defer></script>
 </head>
 
 <body>
@@ -32,14 +34,14 @@
           <a href="/produtos.html">Produtos</a>
         </li>
         <li class="nav-item">
-          <a href="/contatos.html">Contatos</a>
+          <a href="/ContatosAtual.html">Contatos</a>
         </li>
       </ul>
     
       <!-- Botao, cesta com preço e o item -->
       <div class="img-cesta">
         <div class="btn-itens">
-          <button class="btn-item"><a href="/contatos.html">Login | Cadastre-se</a></button>
+          <button class="btn-item"><a href="pagina5.html">Login | Cadastre-se</a></button>
         </div>
         <div class="itens">
           <div class="precoEitem">
@@ -50,15 +52,9 @@
         </div>
       </div>
     </nav>
-    
-
+  
   </Header>
   <main id="index-banner">
-    <section>
-      
-      <!-- carousel -->
-
-    </section>
     <section class="banner2-home">
       <div class="banner2-home-elementos" id="img">
         <img src="/imagem/desktop.png" alt="Desktop-imagem" class="img-desktop">
@@ -76,13 +72,16 @@
 
     <section class="banner-para-empresa">
       <div>
-        <p>Venha Conhecer Um Pouco de Nossa Historia Click no Botão Abaixo e Será Direcionado</p>
-        <button class="botoes-home" id="botao-conheca"> <a href="/história_loja.html">Conheça nossa história</a></button> 
+          <span id="texto-paragrafo">Venha Conhecer Um Pouco de Nossa Historia Click no Botão Abaixo e Será Direcionado</span>
       </div>
-    </section>
-    <section class="conheca-historia">
+      <div>
+          <button class="botoes-home" id="botao-conheca"> <a href="./história_loja.html">Conheça nossa história</a></button>
+      </div>
+  </section>
+  <section class="conheca-historia">
       <img src="/imagem/historia_tabajara.png" alt="imagem do historia" class="img-final">
-    </section>
+  </section>
+  
   </main>
 
   <footer id="rodape">
@@ -121,3 +120,5 @@
     </div>
   </footer>
 </body>
+
+
