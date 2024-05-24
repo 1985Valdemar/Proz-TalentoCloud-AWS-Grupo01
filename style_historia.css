@@ -100,6 +100,7 @@
     margin-bottom: 20px;
 }
 
+
 .texto-esquerda p strong {
     display: block;
     margin-bottom: 10px;
@@ -143,3 +144,4 @@
     width: 5vw; /* Defina a largura desejada */
     height: auto; /* Isso mantém a proporção original da imagem */
 }
+
