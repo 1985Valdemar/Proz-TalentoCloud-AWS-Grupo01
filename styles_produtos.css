@@ -231,3 +231,10 @@
     background-color: #fff8dc; /* Cor de fundo creme */
 }
 
+.img-produto {
+    display: block;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
