@@ -16,3 +16,7 @@ function resizeImages() {
 
 // Adiciona um evento para redimensionar as imagens quando o conteúdo da página for carregado
 document.addEventListener('DOMContentLoaded', resizeImages);
+
+
+
+
