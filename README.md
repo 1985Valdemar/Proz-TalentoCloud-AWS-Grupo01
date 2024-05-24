@@ -31,6 +31,18 @@ Como uma empresa estabelecida há quase 40 anos, nos orgulhamos de ter construí
    <p align="center">Figura-01  Páginas site com Figma.</p>
 
 
+<br>
+<p align="center">
+
+
+![Captura de tela 2024-05-24 083620](https://github.com/1985Valdemar/Proz-TalentoCloud-AWS-Grupo01/assets/114195427/c43022f7-cd71-44af-ae0d-f0870cbcd9cb)
+
+
+  
+  <br>
+  </p>
+   <p align="center">Figura-02  Página site Index.</p>
+
 
 <br>
 
@@ -41,6 +53,8 @@ Esse projeto foi desenvolvindo com as seguintes tecnologias:
 - Figma.
 - IDE VisualStudio Code
 - HTML
+- CSS
+- JavaScript
 - Git e Github.
 
 # Autores
