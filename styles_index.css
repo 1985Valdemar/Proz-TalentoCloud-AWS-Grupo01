@@ -10,7 +10,14 @@
     background-color: #fff8dc; /* Cor de fundo creme */
     color: rgb(10, 10, 10);
     padding: 10px;
+    border: 2px solid white; /* Contorno branco em destaque */
+}
+
+.topo-texto {
     text-align: center;
+    background-color: #fff8dc; /* Cor de fundo creme */
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .cabecalho-texto {
@@ -20,16 +27,20 @@
 
 .cabecalho-menu {
     display: flex;
-    justify-content:space-between; /*flex-start;  space-between */
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    margin-top: 5px;
+}
+
+.logo-menu {
+    display: flex;
+    align-items: center;
 }
 
 .img-logo {
     width: 100%; /* Tamanho da logo */
     display: block; /* Para remover espaços em branco adicionais */
 }
+
 
 #nav-lista {
     display: flex;
