@@ -10,26 +10,43 @@
     background-color: #fff8dc; /* Cor de fundo creme */
     color: rgb(10, 10, 10);
     padding: 10px;
+    border: 2px solid white; /* Contorno branco em destaque */
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    height: 10vh; /* Define a altura do contêiner para ocupar a altura total da tela */
+    text-align: center; /* Centraliza o texto no elemento <p> */
+}
+
+.topo-texto {
     text-align: center;
+    background-color: #fff8dc; /* Cor de fundo creme */
+    padding: 15px;
+    margin-bottom: 10px;
 }
 
 .cabecalho-texto {
     font-size: 20px;
     font-weight: bold;
+    margin: 0; /* Remove margens padrão */
 }
 
 .cabecalho-menu {
     display: flex;
-    justify-content:space-between; /*flex-start;  space-between */
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    margin-top: 5px;
+}
+
+.logo-menu {
+    display: flex;
+    align-items: center;
 }
 
 .img-logo {
     width: 100%; /* Tamanho da logo */
     display: block; /* Para remover espaços em branco adicionais */
 }
+
 
 #nav-lista {
     display: flex;
@@ -225,6 +242,23 @@
 
 .conteudo-centralizado p {
     margin-bottom: 2px; /* Espaçamento entre o texto e o botão */
+}
+
+.banner-para-empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#texto-paragrafo {
+    order: -1; /* Coloca o parágrafo acima do botão */
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.botoes-home {
+    margin-bottom: 25px;
+    padding: 0 10px; /* Adiciona espaço igual de cada lado do texto */
 }
 
 
