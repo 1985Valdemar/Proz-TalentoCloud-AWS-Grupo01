@@ -3,108 +3,108 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* Estilos do cabeçalho */
-.cabecalho {
+  }
+  
+  /* Estilos do cabeçalho */
+  .cabecalho {
     background-color: #fff8dc; /* Cor de fundo creme */
     color: rgb(10, 10, 10);
     padding: 10px;
-    border: 2px solid white; /* Contorno branco em destaque */
-}
-
-.topo-texto {
+    border-top: 2px solid white; /* Linha branca na parte superior */
+    border-bottom: 2px solid white; /* Linha branca na parte inferior */
+  }
+  
+  .topo-texto {
     text-align: center;
     background-color: #fff8dc; /* Cor de fundo creme */
     padding: 10px;
     margin-bottom: 10px;
-}
-
-.cabecalho-texto {
+  }
+  
+  .cabecalho-texto {
     font-size: 20px;
     font-weight: bold;
-}
-
-.cabecalho-menu {
+  }
+  
+  .cabecalho-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     margin-top: 5px;
-}
-
-.logo-menu {
+  }
+  
+  .logo-menu {
     flex-grow: 1;
-}
-
-#nav-lista {
+  }
+  
+  #nav-lista {
     display: flex;
     list-style: none;
     margin-left: auto; /* Empurra a lista para a direita */
-}
-
-.nav-item {
+  }
+  
+  .nav-item {
     margin-left: 20px; /* Espaçamento entre os itens do menu */
-}
-
-.nav-item a {
+  }
+  
+  .nav-item a {
     text-decoration: none;
     color: rgb(10, 10, 10);
-}
-
-.login-cesta {
+  }
+  
+  .login-cesta {
     display: flex;
     align-items: center;
     margin-left: 20px;
-}
-
-.btn-itens {
+  }
+  
+  .btn-itens {
     margin-right: 10px;
-}
-
-.itens {
+  }
+  
+  .itens {
     display: flex;
     align-items: center;
-}
-
-.precoEitem {
+  }
+  
+  .precoEitem {
     margin-right: 10px;
-}
-
-
-.logo-menu {
+  }
+  
+  .logo-menu {
     display: flex;
     align-items: center;
-}
-
-.img-logo img {
+  }
+  
+  .img-logo {
     max-height: 60px;
     margin-right: 20px;
-}
-
-#nav-lista {
+  }
+  
+  #nav-lista {
     display: flex;
     list-style-type: none;
     padding: 0;
-}
-
-.nav-item {
+  }
+  
+  .nav-item {
     margin: 0 20px;
-}
-
-.nav-item a {
+  }
+  
+  .nav-item a {
     text-decoration: none;
     color: black;
     font-size: 16px;
-}
-
-/* Estilos para o botão de login/cadastro e a cesta de compras */
-.login-cesta {
+  }
+  
+  /* Estilos para o botão de login/cadastro e a cesta de compras */
+  .login-cesta {
     display: flex;
     align-items: center;
-}
-
-.btn-item {
+  }
+  
+  .btn-item {
     background-color: #4CAF50; /* Verde */
     border: none;
     color: white;
@@ -115,74 +115,78 @@
     font-size: 16px;
     margin-right: 10px;
     border-radius: 4px;
-}
-
-.itens {
+  }
+  
+  .itens {
     display: flex;
     align-items: center;
-}
-
-.precoEitem {
+  }
+  
+  .precoEitem {
     margin-right: 10px;
     text-align: right;
-}
-
-.itens img {
+  }
+  
+  .itens img {
     width: 50px;
     height: auto;
     border-radius: 50%;
-}
-
-/* Estilos para o texto à esquerda */
-.texto-esquerda {
+  }
+  
+  /* Estilos para o texto à esquerda */
+  .texto-esquerda {
     text-align: left;
     padding: 20px;
     background-color: #fff8dc; /* Cor de fundo creme */
     margin-bottom: 20px;
-}
-
-
-.texto-esquerda p strong {
+  }
+  
+  .texto-esquerda p strong {
     display: block;
     margin-bottom: 10px;
-}
-
-/* Estilos para a imagem abaixo do texto */
-.imagem-historia img {
+  }
+  
+  /* Estilos para a imagem abaixo do texto */
+  .imagem-historia img {
     width: 100%;
     height: auto;
-}
-
-/* Estilos para o rodapé */
-#rodape {
+  }
+  
+  /* Estilos para o rodapé */
+  #rodape {
     background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
     margin-top: 20px;
-}
-
-.rodape-01 {
+  }
+  
+  .rodape-01 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.rodape-item {
+  }
+  
+  .rodape-item {
     text-align: left;
-}
-
-.rodape-item span {
+  }
+  
+  .rodape-item span {
     display: block;
     margin-bottom: 10px;
-}
-
-.rodape-02 {
+  }
+  
+  .rodape-02 {
     margin-top: 10px;
-}
-
-.img-rodape img {
+  }
+  
+  .img-rodape img {
     width: 5vw; /* Defina a largura desejada */
     height: auto; /* Isso mantém a proporção original da imagem */
-}
-
+  }
+  
+  /* Estilo para a imagem final ocupar 100% da largura */
+  .img-final {
+    width: 100%;
+    height: auto;
+  }
