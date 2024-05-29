@@ -76,7 +76,7 @@ botao.addEventListener("mouseout", function() {
 });
 
 // Selecionando todos os botões da página
-const botoes = document.querySelectorAll(".botoes-home");
+const botoes = document.querySelectorAll(".botoes-home ");
 
 // Iterando sobre cada botão
 botoes.forEach(function(botao) {
@@ -110,6 +110,22 @@ todosBotoes.forEach(function(botao) {
         botao.style.backgroundColor = "";
     });
 });
+
+// Selecionar todos os links do menu
+const links = document.querySelectorAll('.nav-item a');
+
+// Adicionar evento de passar o mouse por cima de cada link
+links.forEach(link => {
+  link.addEventListener('mouseover', () => {
+    link.style.color = 'red'; // Mudar a cor do texto para vermelho ao passar o mouse
+  });
+
+  // Adicionar evento de tirar o mouse de cima de cada link
+  link.addEventListener('mouseout', () => {
+    link.style.color = ''; // Resetar a cor do texto ao tirar o mouse de cima
+  });
+});
+
 
 document.addEventListener("DOMContentLoaded", function() {
     // Selecionando todos os elementos com a classe "botao-texto"
